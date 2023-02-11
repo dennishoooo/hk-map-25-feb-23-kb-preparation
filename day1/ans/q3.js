@@ -59,4 +59,16 @@ async function main() {
   console.log(ans);
 }
 
-main();
+// main();
+let student = {
+  name: "Student",
+  description: "i am a student",
+  girlfriend: { name: "ff", isExist: false },
+};
+
+let { name, description, girlfriend } = student;
+let { isExist } = girlfriend;
+console.log(name);
+console.log(description);
+console.log(girlfriend);
+console.log(isExist);
